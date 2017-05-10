@@ -1,0 +1,16 @@
+{
+  "name": "test",
+  "license": "MIT",
+  "version": "1.0.0",
+  "dependencies": {
+    "css-loader": "^0.28.0",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "postcss-cssnext": "^2.10.0",
+    "postcss-loader": "^2.0.3",
+    "webpack": "^2.3.3"
+  },
+  "scripts": {
+    "dev-install": "npm --silent update",
+    "dev-build": "webpack --progress --config webpack.config.js --env.dev"
+  }
+}

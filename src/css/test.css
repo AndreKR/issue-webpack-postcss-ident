@@ -1,0 +1,7 @@
+@import url('inner.css');
+
+body {
+	& div {
+		color: red;
+	}
+}
